@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>YATRA</title>
+</head>
+
+<body>
+    <nav class="nav__bar fixed__nav__bar">
+        <div class="yatra__logo">
+            <img src="https://cdn.freelogovectors.net/wp-content/uploads/2019/02/yatra_logo.png" alt="Logo" style="width: 100%; height: 100%;">
+        </div>
+        <div class="yatra__menu__bar">
+            <span><a href="#section1">Home</a></span>
+            <span><a href="#section2">Our Services</a></span>
+            <span><a href="#section3">Team</a></span>
+            <span><a href="#section4">Why Yatra?</a></span>
+            <span><a href="#section5">Contact</a></span>
+        </div>
+    </nav>
+
+    <!-- Slideshow container -->
+    <div id="section1" class="slideshow-container page">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img1.jpg" style="width:100%" class="image__yatra">
+            <div class="text" style="justify-content: left;">
+                <h1 class="on__image__title">
+                    Book Flights, Hotels, Trains, Buses, Cruise and Holiday Packages
+                </h1>
+                <button class="on__image__button">Learn More</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img2.jpg" style="width:100%" class="image__yatra">
+            <div class="text" style="justify-content: left;">
+                <h1 class="on__image__title">
+                    Book Flights, Hotels, Trains, Buses, Cruise and Holiday Packages
+                </h1>
+                <button class="on__image__button">Learn More</button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img3.jpg" style="width:100%" class="image__yatra">
+            <div class="text" style="justify-content: left;">
+                <h1 class="on__image__title">
+                    Book Flights, Hotels, Trains, Buses, Cruise and Holiday Packages
+                </h1>
+                <button class="on__image__button">Learn More</button>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center" class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--Section 2-->
+    <div id="section2" class="services__sec__yatra page">
+        <h1 class="sections__title">Our Services</h1>
+        <p class="services__desc">On Yatra.com, you can tailor your trip from end-to-end by scouring suitable flights and making your flight booking before proceeding with your hotel bookings. Yatra’s vast hotel repository will see you through this process seamlessly. Any intervening
+            journey can be conveniently planned by searching up relevant train connectivity and making an IRCTC ticket booking. Look up well-researched holiday packages, sift through cruise packages and finalise your entire trip on just one platform.
+        </p>
+        <div class="services__details">
+            <div class="services__details__seg">
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/airplane.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Flights</h4>
+                </div>
+
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/train.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Trains</h4>
+                </div>
+
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/hotel-bed.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Hotel</h4>
+                </div>
+
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/beach-chair.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Holiday</h4>
+                </div>
+
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/bus.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Bus</h4>
+                </div>
+
+                <div class="services">
+                    <div class="icons__div"> <img src="/icons/tracking.png" class="icons" />
+                    </div>
+                    <h4 class="icons__title">Activities</h4>
+                </div>
+            </div>
+        </div>
+
+        <!--Discounts section-->
+        <div class="page-wrapper">
+            <div class="view__port">
+                <div class="countries__title">
+                    <h1 class="sections__title">Countries Open For You To Travel</h1>
+
+                    <a id="prev" class="prev__arrow"><i class="fas fa-chevron-circle-left"></i></a>
+                    <a id="next" class="next__arrow"><i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+
+
+                <div class="images__country">
+                    <div class="country">
+                        <img src="/countries__images/canada.jpg" class="c_image post">
+                        <h3 class="country__name">Canada
+                        </h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/finland.jpg" class="c_image post">
+                        <h3 class="country__name">Finland</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/germany.jpg" class="c_image post">
+                        <h3 class="country__name">Germany</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/iceland.jpg" class="c_image post">
+                        <h3 class="country__name">Iceland</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/italy.jpg" class="c_image post">
+                        <h3 class="country__name">Italy</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/spain.jpg" class="c_image post">
+                        <h3 class="country__name">Spain</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/switzerland.jpg" class="c_image post">
+                        <h3 class="country__name">Switzerland</h3>
+                    </div>
+                    <div class="country">
+                        <img src="/countries__images/uk.jpg" class="c_image post">
+                        <h3 class="country__name">United Kingdom</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="youtube__yatra">
+            <h1 class="sections__title">
+                Check Out Our Latest Videos
+            </h1>
+            <div class="youtube__iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ql9HmxdQ1Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J0cT0lLMdwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K-IRI2MXcVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/s7xgNm-bd6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 3-->
+    <div id="section3">
+        <h1 class="sections__title">Yatra Leadership Team</h1>
+        <div class="team__members__main__row1">
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/dhruv-shringi.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Dhruv Shringi</h4>
+                    <subtitle class="member__position">Co-Founder & CEO</subtitle>
+                </div>
+            </div>
+            <!--member 2-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/manish-amin.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Manish Amin</h4>
+                    <subtitle class="member__position">Co-Founder & CTO</subtitle>
+                </div>
+            </div>
+            <!--member 3-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/sabina-chopra.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Sabina Chopra</h4>
+                    <subtitle class="member__position">Co-Founder & COO-Corporate</subtitle>
+                </div>
+            </div>
+            <!--member 4-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/akashnew.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Akash Poddar</h4>
+                    <subtitle class="member__position">COO (B2B)</subtitle>
+                </div>
+            </div>
+        </div>
+        <div class="team__members__main__row2">
+            <!--member 5-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/gautam-kaul_390.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Gautam Kaul</h4>
+                    <subtitle class="member__position">COO (Inbound-Yatra Exotic Routes)</subtitle>
+                </div>
+            </div>
+            <!--member 6-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/rajesh-bhanot.jpg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Rajesh Bhanot</h4>
+                    <subtitle class="member__position">Chief Customer Experience Officer</subtitle>
+                </div>
+            </div>
+            <!--member 7-->
+            <div class="team___members">
+                <img src="https://ns.yatracdn.com/common/images/fresco/fresco-footer-images/new-yt-team/manish-hemrajani.jpeg" alt="team member image" class="team__member__image" />
+                <div class="name__and__pos">
+                    <h4 class="member__name">Manish Hemrajani</h4>
+                    <subtitle class="member__position">VP, Corporate Development and Investor Relations</subtitle>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="newsletter__signup">
+            <h1 class="sections__title signup__title">Newsletter Signup</h1>
+            <div class="signup__area">
+                <input type="email" placeholder="yourmailid@gmail.com" class="email__input__field">
+                <button class="signup__button"><a class="signup__a">Sign Up</a></button>
+            </div>
+        </div>
+    </div>
+    <!--Section 4-->
+    <div id="section4">
+        <h1 class="sections__title">WHY YATRA?</h1>
+        <subtitle class="desc__why">Working at Yatra is bound to be one of the most amazing experiences of your life. The bonds you build, the friends you make and the stupendous learning opportunities you get, are just some of these.</subtitle>
+        <div class="why__yatra__desc1">
+            <div class="why__yatra__reasons">
+                <img src="/reasons__icon/director-chair.png" class="reason__icon" />
+                <div>
+                    <h3 class="reason__title">Great Peers</h3>
+                    <p class="reason">We are a team of achievers. Our folks are ambitious, go getters, fun loving, aware and proactive.</p>
+                </div>
+            </div>
+
+            <div class="why__yatra__reasons">
+                <img src="/reasons__icon/best-seller.png" class="reason__icon" />
+                <div>
+                    <h3 class="reason__title">Most Trusted Brand</h3>
+                    <p class="reason">With a strong focus on fulfilling customer needs and service, we are the most trusted online travel brand.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="why__yatra__desc2">
+
+            <div class="why__yatra__reasons">
+                <img src="/reasons__icon/clapperboard.png" class="reason__icon" />
+                <div>
+                    <h3 class="reason__title">
+                        Fun @ Work</h3>
+                    <p class="reason">Hackathons, Cricket Matches, Festival Celebrations,working with us is never boring!</p>
+                </div>
+            </div>
+
+            <div class="why__yatra__reasons megaphone__icon">
+                <img src="/reasons__icon/megaphone.png" class="reason__icon" />
+                <div>
+                    <h3 class="reason__title">Open Culture</h3>
+                    <p class="reason">Every view and opinion is heard and respected. We talk to people not their designations.</p>
+                </div>
+                <div></div>
+
+            </div>
+        </div>
+    </div>
+    <!--Section 5-->
+    <div id="section5" class="section__5">
+        <!--For Map-->
+        <div class="map">
+            <div class="gmap"><iframe class="gmap__iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224568.30237037074!2d76.84966368013714!3d28.422885864053818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1628698442484!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <!--Contact form-->
+        <div class="contact__form">
+            <h1 style="margin-left: 250px;">Contact Form</h1>
+            <label class="detail__name">Name</label><br>
+            <input type="text" placeholder="Name" class="contact__name"><br><br>
+            <label class="detail__name">Phone Number</label><br>
+            <input type="tel" placeholder="9876543210" class="contact__number"><br><br>
+            <label class="detail__name">Email Address</label><br>
+            <input type="email" placeholder="abcd@gmail.com" class="contact__mail"><br><br>
+            <label class="detail__name">Message</label><br>
+            <textarea class="textarea"></textarea>
+            <input type="submit" class="submit__button">
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="office__ad">
+            <h3 style="font-weight: 500; color: darkgrey;">
+                Office Address
+            </h3>
+            <p style="margin-top: 10px; font-weight: 100; color: lightgrey;">Gulf Adiba, 4th Floor, Plot No. 272, Phase II,<br> Udyog Vihar, Sector 20, <br>Gurugram, Haryana 122008</p>
+        </div>
+        <div class="social__media">
+            <a href="" class="facebook"><i class="fab fa-facebook-square" style="background-color: rgb(25, 25, 255);color: white;"></i>Facebook</a>
+            <a href="" class="twitter"><i class="fab fa-twitter-square" style="background-color: blue;"></i>Twitter</a>
+            <a href="" class="instagram" style="color: rgb(255, 239, 239);"><i class="fab fa-instagram" style="background-color: red; padding: 1px;"></i>Instagram</a>
+        </div>
+        <div class="footer__contact">
+            <p>support@yatra.com</p>
+            <p style="margin-top: 10px;">intobservice@yatra.com</p>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script src="/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBmifLhhsM1Dw-U0lG4Yf0bpy_0zUU7E4&callback=initMap"></script>
+</body>
+
+</html>
