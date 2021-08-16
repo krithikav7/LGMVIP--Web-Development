@@ -1,0 +1,116 @@
+.App {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+}
+
+
+/*Navbar styling*/
+
+.navbar__logo {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.Get__users__button {
+    color: black;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.button {
+    background: lightcyan;
+    color: black;
+    font-weight: 900;
+    padding: 1%;
+    width: 100px;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: none;
+    font-size: 15px;
+    padding: 2%;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(195, 139, 233);
+    border: 1px solid black;
+}
+
+
+/*Home page description*/
+
+.homepage__desc {
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+}
+
+.get__users__desc {
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+
+/*Displaying user data*/
+
+.loader {
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.user__title {
+    font-size: 30px;
+    color: black;
+}
+
+.display__user__data {
+    display: inline-block;
+    margin: 10px;
+}
+
+.individual__user {
+    background: rgb(195, 139, 233);
+    width: 200px;
+    align-self: center;
+    margin-left: 1%;
+    border: 1px solid black;
+}
+
+.user__button {
+    margin-bottom: 20px;
+}
+
+.user__image {
+    border-radius: 52%;
+}
+
+.user__email {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.users__icon {
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .loader__img {
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+}
